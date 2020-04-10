@@ -7,7 +7,7 @@ print(2-2)
 print(2*2)
 print(2**3) #Степень
 print(2/2)
-print(2/2) #Деление с округлением (до меньшего а-ля Py2)
+print(2//2) #Деление с округлением (до меньшего а-ля Py2)
 print(2%2)
 print(2&2)
 
@@ -23,3 +23,15 @@ print(x)
 # In Py name of variables should be in snake_case
 type_of_variable_x = type( x )
 print(type_of_variable_x)
+
+# Some math ops, but now we will use variables
+x = 2
+y = 3
+print(x+y)
+print(x-y)
+print(x*y)
+print(x**y) #Степень
+print(x/y)
+print(x//y) #Деление с округлением (до меньшего а-ля Py2)
+print(x%y)
+print(x&y)
